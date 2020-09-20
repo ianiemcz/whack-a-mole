@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\moleSpawner.cs" />
+    <Compile Include="Assets\hammer\scripts\hammerController.cs" />
     <Compile Include="Assets\player\scripts\MovePlayer.cs" />
     <Compile Include="Assets\player\scripts\Scream.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

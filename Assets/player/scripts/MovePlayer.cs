@@ -6,17 +6,7 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 1f;
-
-    GameObject hole1;
-    GameObject hole2;
-    GameObject hole3;
-    GameObject hole4;
-    GameObject hole5;
-    GameObject hole6;
-    GameObject hole7;
-    GameObject hole8;
-    GameObject hole9;
+    private float gameSpeed = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +62,8 @@ public class MovePlayer : MonoBehaviour
             MoveToHole9();
         }
     }
+
+    
     
     private void MoveToHole1()
     {
@@ -117,4 +109,5 @@ public class MovePlayer : MonoBehaviour
     {
 
     }
+
 }

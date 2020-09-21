@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\hammerSpawner.cs" />
     <Compile Include="Assets\Scenes\moleSpawner.cs" />
+    <Compile Include="Assets\collider.cs" />
     <Compile Include="Assets\hammer\scripts\hammerController.cs" />
     <Compile Include="Assets\player\scripts\MovePlayer.cs" />
     <Compile Include="Assets\player\scripts\Scream.cs" />

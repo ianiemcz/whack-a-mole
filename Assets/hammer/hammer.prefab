@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3355207015484115089}
-  - component: {fileID: -3389068662976067640}
   - component: {fileID: -3457279860825368124}
   m_Layer: 0
   m_Name: hammer
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989085747169777333}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0.761, z: 0}
+  m_LocalPosition: {x: -4.16, y: 0, z: 1.8799999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5821807380852319908}
@@ -34,18 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!114 &-3389068662976067640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989085747169777333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05b3ba6857a05e04eb1e5158d6b5f71f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &-3457279860825368124
 BoxCollider:
   m_ObjectHideFlags: 0

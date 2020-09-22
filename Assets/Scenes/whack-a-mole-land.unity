@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -873,6 +874,32 @@ MonoBehaviour:
   hammerPrefab: {fileID: 1989085747169777333, guid: 274d12ecc43ef8649aa29e7161f4ffeb,
     type: 3}
   spawnHammer: {fileID: 1944209519}
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eac94d176785a45b844d65d32c9599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hammer: {fileID: 1989085747169777333, guid: 274d12ecc43ef8649aa29e7161f4ffeb, type: 3}
+  mole: {fileID: 6646213283468761040, guid: decab0704282344408e6fee0f4f8fb35, type: 3}
+  hammerPoints:
+  - {fileID: 92196700}
+  - {fileID: 1345178829}
+  - {fileID: 618487609}
+  - {fileID: 1112381056}
+  - {fileID: 480806972}
+  - {fileID: 2115249613}
+  - {fileID: 1042081351}
+  - {fileID: 2115057272}
+  - {fileID: 485646343}
+  ms: {fileID: 0}
+  hs: {fileID: 0}
 --- !u!1 &1042081350
 GameObject:
   m_ObjectHideFlags: 0

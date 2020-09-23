@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 201284762}
   m_Layer: 0
   m_Name: Hitcounter
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.779919, y: 0, z: 9.145661, w: 2.1371686}
+  m_margin: {x: 7.26847, y: 0, z: 9.145661, w: 2.1371686}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -858,7 +858,7 @@ MonoBehaviour:
   - {fileID: 2115057272}
   - {fileID: 485646343}
   gameText: {fileID: 21037957}
-  gameTime: 20
+  gameTime: 10
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,6 +874,7 @@ MonoBehaviour:
   hammerPrefab: {fileID: 1989085747169777333, guid: 274d12ecc43ef8649aa29e7161f4ffeb,
     type: 3}
   spawnHammer: {fileID: 1944209519}
+  test: 0
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,7 +888,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hammer: {fileID: 1989085747169777333, guid: 274d12ecc43ef8649aa29e7161f4ffeb, type: 3}
-  mole: {fileID: 6646213283468761040, guid: decab0704282344408e6fee0f4f8fb35, type: 3}
   hammerPoints:
   - {fileID: 92196700}
   - {fileID: 1345178829}
@@ -899,7 +899,6 @@ MonoBehaviour:
   - {fileID: 2115057272}
   - {fileID: 485646343}
   ms: {fileID: 0}
-  hs: {fileID: 0}
 --- !u!1 &1042081350
 GameObject:
   m_ObjectHideFlags: 0

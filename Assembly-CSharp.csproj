@@ -66,8 +66,6 @@
     <Compile Include="Assets\Scenes\hammerSpawner.cs" />
     <Compile Include="Assets\Scenes\hitWithHammer.cs" />
     <Compile Include="Assets\Scenes\moleSpawner.cs" />
-    <Compile Include="Assets\Scream.cs" />
-    <Compile Include="Assets\collider.cs" />
     <Compile Include="Assets\hammer\scripts\hammerController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
